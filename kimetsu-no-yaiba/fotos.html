@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/fotos.css" />
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <img src="./assets/img/logo2.png" id="logo">
+           <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="./index.html" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="./fotos.html" class="nav-link">Fotos</a></li>
+                    <li class="nav-item"><a href="./contato.html" class="nav-link">Sobre</a></li>
+                </ul>
+            </div>
+
+            <div class="login-button">
+                <button><a href="#">Entrar</a></button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="./assets/img/menu_white_36dp.svg"></button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="./index.html" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="./fotos.html" class="nav-link">Fotos</a></li>
+                <li class="nav-item"><a href="./contato.html" class="nav-link">Contatos</a></li>
+            </ul>
+
+            <div class="login-button">
+                <button><a href="#">Entra</a></button>
+            </div>
+        </div>
+    </header>
+    <h1>Fotos Kimetsu</h1>
+    <div class="content">
+        <div class="slides">
+            <input type="radio" name="slide" id="slide1">
+            <input type="radio" name="slide" id="slide2">
+            <input type="radio" name="slide" id="slide3">
+            <input type="radio" name="slide" id="slide4">
+            <input type="radio" name="slide" id="slide5">
+
+            <div class="slide s1">
+                <img src="./assets/img/kimetsu1.jpg" alt="Kimetsu no yaba terceira temporada">
+            </div>
+             <div class="slide">
+                <img src="./assets/img/kimetsu2.jpg" alt="Tanjiro e sua turma ">
+            </div> 
+            <div class="slide">
+                <img src="./assets/img/kimetsu3.jpg" alt="Muichiro Tokito">
+            </div> 
+            <div class="slide">
+                <img src="./assets/img/kimetsu4.jpg" alt="Mitsuri Kanroji">
+            </div> 
+            <div class="slide">
+                <img src="./assets/img/kimetsu5.jpg" alt="Muichiro Tokito e Mitsuri Kanroji">
+            </div> 
+
+        </div>
+
+        <div class="navigation">
+            <label class="barra" for="slide1"></label>
+            <label class="barra" for="slide2"></label>
+            <label class="barra" for="slide3"></label>
+            <label class="barra" for="slide4"></label>
+            <label class="barra" for="slide5"></label>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

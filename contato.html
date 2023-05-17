@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/contato.css" />
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <img src="./assets/img/logo2.png" id="logo">
+           <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="./index.html" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="./fotos.html" class="nav-link">Fotos</a></li>
+                    <li class="nav-item"><a href="./contato.html" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="login-button">
+                <button><a href="#">Entrar</a></button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="./assets/img/menu_white_36dp.svg"></button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="./index.html" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="./fotos.html" class="nav-link">Fotos</a></li>
+                <li class="nav-item"><a href="./contato.html" class="nav-link">Contato</a></li>
+            </ul>
+
+            <div class="login-button">
+                <button><a href="#">Entra</a></button>
+            </div>
+        </div>
+    </header>
+    <div class="content-container">
+        <h1>Contato, duvidas ou perguntas</h1>
+        <div class="form-container">
+            <form
+            action="https://formspree.io/f/mnqypllj"
+            method="POST"
+            >
+            <label>
+                <b>Email:</b>
+                <input type="email" name="email">
+            </label>
+            <label>
+                <b>Nome:</b>
+                <input type="text" name="name">
+            </label>
+            <label>
+                <b>Telefone:</b>
+                <input type="text" name="fone">
+            </label>
+            <label>
+                <b>Mensagem:</b>
+                <textarea name="message"></textarea>
+            </label>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
